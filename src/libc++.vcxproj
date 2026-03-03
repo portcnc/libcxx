@@ -119,6 +119,7 @@
       <AdditionalOptions>-march=pentium-mmx -Wno-unused-parameter -Wno-microsoft-include -Wno-deprecated-declarations</AdditionalOptions>
       <AdditionalIncludeDirectories>$(ProjectDir)\..\include</AdditionalIncludeDirectories>
       <TreatWarningAsError>true</TreatWarningAsError>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -140,6 +141,7 @@
       <AdditionalOptions>-flto -march=pentium-mmx -Wno-unused-parameter -Wno-microsoft-include -Wno-deprecated-declarations</AdditionalOptions>
       <AdditionalIncludeDirectories>$(ProjectDir)\..\include</AdditionalIncludeDirectories>
       <TreatWarningAsError>true</TreatWarningAsError>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>
